@@ -73,9 +73,17 @@ if($('body').hasClass('fp-viewing-section7')){
 })
 
 $(".incheon_mobile").click(function(){
-    window.open("https://ssh067.github.io/Incheon/index.html", "인천국제공항 모바일", "resizable=yes, toolbar=no, width=400 , height=1000");
+    window.open("https://ssh067.github.io/Incheon/index.html", "", "resizable=no, toolbar=no, width=400 , height=1000");
+});
+
+$(".kia_mobile").click(function(){
+    window.open("https://ssh067.github.io/kia_k5/", "", "resizable=yes, toolbar=no, width=400 , height=1000");
 });
 
 $(".hyundai_mobile").click(function(){
-    window.open("https://ssh067.github.io/hyundai/index.html", "인천국제공항 모바일", "resizable=yes, toolbar=no, width=400 , height=1000");
+    window.open("https://ssh067.github.io/hyundai/index.html", "", "resizable=yes, toolbar=no, width=400 , height=1000");
+});
+
+$('.hyundai_mobile, .kia_mobile, .incheon_mobile').on("click",function(e){
+    e.preventDefault();
 });
