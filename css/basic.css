@@ -90,11 +90,11 @@ header h1 a.scroll {display:block;
                     z-index:999;}
 
 @keyframes opacity1 {
-        0% {opacity:30%;}
-        25% {opacity:70%;}
-        50% {opacity:90%;}
-        75% {opacity:70%;}
-        100% {opacity:30%;}
+        0% {opacity:0.3;}
+        25% {opacity:0.5;}
+        50% {opacity:0.8;}
+        75% {opacity:0.5;}
+        100% {opacity:0.3;}
 }
 
 
@@ -200,8 +200,7 @@ header h1 a.scroll {display:block;
                         width:100%; height:100%;
                         object-fit:contain;}
 
-.coding_skill_m {}
-.coding_skill_m li {}
+
 .coding_skill_m .m_bar {display: block;
                         position: relative;
                         top:3vh; left:0;
@@ -285,7 +284,6 @@ header h1 a.scroll {display:block;
 .web_left {display:table-cell;
         width:100%; height:70vh;
         vertical-align:middle;}
-.web_txt {}
 .web_txt h1 {font-family: 'Roboto', sans-serif;
                 font-size:80px;
                 padding-bottom:30px;}
@@ -301,23 +299,19 @@ header h1 a.scroll {display:block;
                         font-weight: bold;
                         padding:20px 0 60px;
                         letter-spacing:2px;}
-.web_txt .web_des{}
 .web_txt .web_use{padding:60px 0;
                         color:#333;}
 
-.web_w .web_button {}
-.web_w .web_button button {padding:8px 16px;
+.web_w .web_button a {padding:8px 16px;
                                 margin-right:20px;
                                 border-radius:none;
                                 background: #96ada9;
+                                color:#fff;
                                 border:none;
                                 cursor: pointer;
                                 transition:0.5s;}
-.web_w .web_button button:hover {box-shadow:0 0 20px #495D59;}
-.web_w .web_button button:hover a {}
-.web_w .web_button button a {font-size:18px;
-                                color:#fff;
-                                transition: 0.5s;}
+.web_w .web_button a:hover {box-shadow:0 0 20px #495D59;
+                                color:#111;}
 
 .web_img {display: table-cell;
                 position:relative;
@@ -329,7 +323,6 @@ header h1 a.scroll {display:block;
 .web_m_img img:hover {filter: grayscale(20%);
                 transform: scale3d(1.1, 1.1, 1.1);
                 transition:0.7s;}        
-.web_w_img {}
 .web_w_img img {width:700px;
                 transition:0.7s;}
 .web_w_img img:hover {filter: grayscale(20%);
