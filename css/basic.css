@@ -135,7 +135,7 @@ header h1 a.scroll {display:block;
 
 @keyframes left_top{
         0% {opacity:0;}
-        100% {opacity:100%;}
+        100% {opacity:1;}
 }
 
 .profil_img img {display:inline-block;
@@ -304,7 +304,6 @@ header h1 a.scroll {display:block;
 
 .web_w .web_button a {padding:8px 16px;
                                 margin-right:20px;
-                                border-radius:none;
                                 background: #96ada9;
                                 color:#fff;
                                 border:none;
